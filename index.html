@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./mobile.css" />
+  </head>
+  <body>
+    <div class="background">
+      <form>
+        <h2>Student Registration Form</h2>
+        <!-- First Name -->
+        <div class="fname">
+          <label for="fname">First Name:</label>
+          <input
+            type="text"
+            name="fname"
+            id="fname"
+            placeholder="First Name"
+            required
+          />
+
+          <p>Only letters required a-z or A-Z min 4 & max 8 characters</p>
+        </div>
+        <!-- Last Name -->
+        <div class="lname">
+          <label for="fname">Last Name:</label>
+          <input
+            type="text"
+            name="lname"
+            id="lname"
+            placeholder="Last Name"
+            required
+          />
+
+          <p>Only letters required a-z or A-Z min 4 & max 8 characters</p>
+        </div>
+        <!-- email -->
+        <div class="email">
+          <label for="email">Email ID: </label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            required
+          />
+          <p>Email must be a valid address, eg.ahti123@yahoo.com</p>
+        </div>
+        <!-- password -->
+        <div class="password">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="password"
+            required
+          />
+
+          <p>
+            Password must be aplphanumeric(@, _ and - are also allowed ) and be
+            8-20 characters
+          </p>
+        </div>
+        <!-- DOB -->
+        <div class="dob">
+          <label for="dob">Date Of Birth: </label>
+          <input type="date" name="dob" id="dob" required />
+        </div>
+        <!-- gender -->
+        <div class="gender">
+          <label for="gender">Gender</label>
+          <span class="male">
+            <input type="radio" name="gender" id="gender" required />Male
+          </span>
+          <span class="female">
+            <input type="radio" name="gender" id="gender" required />Female
+            <br />
+          </span>
+        </div>
+
+        <!-- Address -->
+        <div class="address">
+          <label for="address">Address</label>
+          <textarea name="address" cols="60" rows="10" required></textarea>
+          <br />
+        </div>
+
+        <!-- Mobile Number: -->
+        <div class="phone">
+          <label for="phone">Phone:</label>
+          <input
+            type="tel"
+            name="phone"
+            id="phone"
+            placeholder="+92"
+            required
+          />
+
+          <p>Phone must be a valid PAK no (11 digits)</p>
+        </div>
+        <!-- city -->
+        <div class="city">
+          <label for="city">City</label>
+          <input type="text" name="city" id="city" required /> <br />
+        </div>
+        <!-- pincode -->
+        <div class="code">
+          <label for="code">Pincode</label>
+          <input type="tel" name="code" id="code" required />
+
+          <p>Code must be digits (maximum 5)</p>
+        </div>
+        <!-- course -->
+        <div class="course">
+          <label>Courses</label>
+
+          <span> <input type="radio" name="courses" />Web Designing </span>
+          <span> <input type="radio" name="courses" />Graphic Designing </span>
+          <span> <input type="radio" name="courses" />Mern Stack </span>
+        </div>
+        <hr />
+
+        <!-- buttons -->
+        <div class="form-btn">
+          <input type="submit" value="submit" class="btn btn-1" />
+          <input type="reset" value="reset" class="btn btn-2" />
+        </div>
+      </form>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

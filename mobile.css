@@ -1,0 +1,126 @@
+@media screen and (max-width: 764px) {
+  form {
+    max-width: 690px;
+  }
+}
+@media screen and (max-width: 700px) {
+  form {
+    max-width: 620px;
+    padding-left: 50px;
+  }
+  form h2::after {
+    left: 200px;
+  }
+  .course span:nth-child(2) {
+    width: 100%;
+    margin-right: 100px;
+  }
+  .course span:last-child {
+    margin-left: 107px;
+    margin-top: 8px;
+    display: block;
+  }
+}
+@media screen and (max-width: 600px) {
+  form {
+    max-width: 520px;
+    padding-left: 10px;
+  }
+  .course span:nth-child(2) {
+    width: 100%;
+    margin-right: 40px;
+  }
+}
+@media screen and (max-width: 500px) {
+  form {
+    padding: 20px 0;
+    padding-left: 10px;
+    max-width: 450px;
+  }
+  form h2 {
+    text-align: center;
+    font-size: 30px;
+  }
+  form h2::after {
+    left: 0;
+  }
+  textarea {
+    width: 335px;
+    height: 120px;
+  }
+  .course label {
+    display: block;
+    margin-bottom: 15px;
+  }
+  .course span {
+    display: block;
+    margin: 5px 0;
+  }
+  .course span:last-child {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 413px) {
+  .form-btn .btn-1 {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  form h2 {
+    font-size: 25px;
+  }
+  .form-btn .btn {
+    display: block;
+    text-align: center;
+  }
+  .form-btn .btn-1 {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 376px) {
+  form {
+    padding-left: 0px;
+  }
+  form h2 {
+    text-align: center;
+    font-size: 20px;
+  }
+  form label {
+    display: block;
+  }
+  .email input {
+    margin-left: 0px;
+  }
+  .password input {
+    margin-left: 0px;
+  }
+  .dob input {
+    margin-left: 0px;
+  }
+  .gender span {
+    display: block;
+  }
+  .address textarea {
+    width: 274px;
+    height: 103px;
+  }
+  .phone input {
+    margin-left: 0px;
+  }
+  .city input {
+    margin-left: 0px;
+  }
+  .code input {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 300px) {
+  form h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+  form textarea {
+    width: 240px;
+    height: 98px;
+  }
+}
