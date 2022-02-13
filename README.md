@@ -1,4 +1,6 @@
 # ***Validated-form-with-javascript***
+![1](https://user-images.githubusercontent.com/66128446/153765422-928f9adf-b78b-449f-8483-fbd71a1cd76f.PNG)
+
 > *INTRODUCTION*
 
 This is a responsive signup form in which i include validations through javascript concept regular expressions. validation will occur when you enter an information which is invalid or incorrect realted to field.
@@ -10,3 +12,6 @@ The fields which includes validation are:
 - password
 - phone 
 - pincode
+## **Deployment**
+- netlify 
+- https://validated-form-dev-ak.netlify.app/
