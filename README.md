@@ -12,6 +12,6 @@ The fields which includes validation are:
 - password
 - phone 
 - pincode
-## **Deployment**
+## ![icons8-deployment-40](https://user-images.githubusercontent.com/66128446/158442096-8ff90d02-ae07-4254-b10d-cf2109c05339.png) **Deployment**
 - netlify 
 - https://validated-form-dev-ak.netlify.app/
